@@ -1,0 +1,125 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /
+    margin: 100px;
+    padding: 0;
+}
+
+header {
+    background-color:#ec9e70; /* Color de fondo del encabezado */
+    padding: 10px 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: rgb(7, 1, 1); /* Color de texto de los enlaces */
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline; /* Efecto al pasar el mouse */
+}
+
+/* Estilo para el contenedor de búsqueda */
+.search-container {
+    display: flex;
+    align-items: center;
+}
+
+.search-container input {
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #050000; /* Borde del input */
+    border-radius: 4px;
+    width: 200px; /* Ancho del input */
+}
+
+.search-container button {
+    padding: 10px 15px;
+    background-color: #ad4c0b; /* Color de fondo del botón */
+    color: rgb(5, 0, 0); /* Color de texto del botón */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer; /* Cambia el cursor al pasar el mouse */
+}
+
+.search-container button:hover {
+    background-color: #7e3009; /* Color del botón al pasar el mouse */
+}
+
+/* Estilos para la sección hero */
+.hero {
+    text-align: center;
+    padding: 30px;
+    background-color:rgb(211, 88, 16); /* Color de fondo de la sección hero */
+}
+
+/* Estilos para los artículos */
+article {
+    padding: 20px;
+    margin: 20px 0;
+    background-color:rgb(216, 139, 88); /* Color de fondo de los artículos */
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra para los artículos */
+}
+
+.producto {
+    text-align: center;
+    margin: 20px;
+}
+
+.producto img {
+    max-width: 100%;
+    border-radius: 20px; /* Bordes redondeados para las imágenes */
+}
+
+/* Estilos para el pie de página */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #b9510b; /* Color de fondo del footer */
+    color: rgb(7, 7, 7); /* Color de texto del footer */
+}
+
+footer h4 {
+    margin-bottom: 10px;
+}
+
+footer ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+footer ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+footer ul li a {
+    color: rgb(5, 5, 5); /* Color de texto de los enlaces en el footer */
+    text-decoration: none;
+}
+
+footer ul li a:hover {
+    text-decoration: underline; /* Efecto al pasar el mouse */
+}
+
+
+
